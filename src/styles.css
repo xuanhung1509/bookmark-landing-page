@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Rubik:wght@400;500&display=swap');
+
+.btn {
+  @apply text-sm px-6 py-3 rounded-md shadow-md transition-colors;
+}
+
+.btn-red {
+  @apply bg-bookmark-red text-white hover:bg-white hover:text-bookmark-red border-2 border-transparent hover:border-bookmark-red;
+}
+
+.btn-purple {
+  @apply bg-bookmark-purple text-white hover:bg-white hover:text-bookmark-purple border-2 border-transparent hover:border-bookmark-purple;
+}
+
+.btn-white {
+  @apply bg-white text-bookmark-grey hover:text-black border-2 border-transparent hover:border-black;
+}
